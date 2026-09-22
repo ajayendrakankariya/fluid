@@ -20,8 +20,8 @@ export default function NavBar() {
     <nav className="nav" role="navigation" aria-label="Main navigation">
       <div className="nav-inner">
         <div className="nav-brand">
-          <span className="nav-brand-badge">Exp 8</span>
-          <span>Bernoulli's Theorem Virtual Lab</span>
+          <span className="nav-brand-badge">Exp {currentExperiment.manualExperimentNo}</span>
+          <span>Fluid Mechanics Virtual Lab</span>
         </div>
         <ul className="nav-links">
           <li>
